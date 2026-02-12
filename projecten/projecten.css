@@ -1,13 +1,15 @@
-.project{
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  justify-content: center;
+.projectsHolder{
+  margin: 25px 0px;
 }
 
-.imageHolder{
-  flex: 1 1 calc(50% - 4rem);
-  max-width: calc(50% - 2rem);
+.project{
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.project-reverse{
+  background-color: var(--accent-color);
 }
 
 .textHolder{
@@ -15,13 +17,15 @@
   max-width: calc(50% - 2rem);
 }
 
-@media screen and (max-width: 1180px) {
-  .project{
-    flex-direction: column;
-  }
+.buttonHolder{
+  display: flex;
+  margin-top: 15px;
+  gap: 25px;
+  flex-wrap: wrap;
+}
 
-  .imageHolder, .textHolder{
-    width: 100%;
+@media screen and (max-width: 1000px) {
+  .project-reverse{
+    flex-direction: column-reverse !important;
   }
-  
 }
