@@ -1,0 +1,46 @@
+.contactHolder{
+  min-height: calc(100vh - 74px - 61px);
+  display: flex;
+}
+
+.contactRow{
+  margin: auto;
+  align-items: start;
+}
+.textHolder{}
+
+.infoHolder{
+  display: flex;
+  justify-content: end;
+  margin-right: 55px;
+}
+
+@media screen and (max-width: 1000px) {
+  .infoHolder{
+    margin: 0;
+  }
+}
+
+.iconHolder{
+  display: flex;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.iconHolder img{
+  width: 70px;
+  padding-right: 20px;
+}
+
+.iconHolder .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconHolder .text span{
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--primary-font-color);
+  padding-bottom: 3px;
+}
