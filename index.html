@@ -9,79 +9,89 @@
   <title>Document</title>
 </head>
 <body>
-  <nav class="navbar container">
-    <div class="rightSide">
-      <a href="/"><img src="../assets/logo.svg" alt="logo"></a>
-    </div>
+  <header>
+    <nav class="navbar container">
+      <div class="rightSide">
+        <a href="/"><img src="../assets/logo.svg" alt="logo"></a>
+      </div>
 
-    <!-- for phone -->
-    <input type="checkbox" id="menu-toggle" />
+      <!-- for phone -->
+      <input type="checkbox" id="menu-toggle" />
 
-    <label for="menu-toggle" class="hamburger hamOpen"><img src="../assets/openHam.svg" alt="hamburger" /></label>
-    <label for="menu-toggle" class="hamburger hamClose"><img src="../assets/closeHam.svg" alt="hamburger sluiten"></label>
+      <label for="menu-toggle" class="hamburger hamOpen" label="hamburger menu">
+        <span class="screenReaderText">Open menu</span>
+        <img src="../assets/openHam.svg" alt="hamburger" />
+      </label>
+      <label for="menu-toggle" class="hamburger hamClose">
+        <span class="screenReaderText">Sluit menu</span>
+        <img src="../assets/closeHam.svg" alt="hamburger sluiten">
+      </label>
 
-    <!-- menu -->
-    <div class="leftSide">
-      <a href="/">Home</a>
-      <a href="/projecten/projecten.html">Projecten</a>
-      <a class="primaryButton" href="/contact/contact.html">Koffie?</a>
-    </div>
-  </nav>
+      <!-- menu -->
+      <div class="leftSide">
+        <a href="/">Home</a>
+        <a href="/projecten/projecten.html">Projecten</a>
+        <a class="primaryButton" href="/contact/contact.html">Koffie?</a>
+      </div>
+    </nav>
+  </header>
+  <main>
     <section class="row container">
-    <div class="doubleCol imageHolder">
-      <img src="../assets/ProfilePic.png" alt="hero image">
-    </div>
-    <div class="doubleCol textHolder">
-      <span class="title"><strong>Chris Friemann</strong> <br /> Student ICT-SE</span>
-      <p>
-        <span class="subTitleSmall">Hallo!</span><br>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum officia quibusdam consequatur? Ex accusamus sunt veritatis vel ipsum at alias, iste sequi nemo, beatae maxime voluptates excepturi nobis reiciendis.</span>
-      </p>
-    </div>
-  </section>
-
-  <section class="toolsHolder container">
-    <h1>Tools en Talen</h1>
-    <img src="../assets/languages.png" alt="programmeer talen">
-  </section>
-
-  <section class="educationHolder container">
-    <h1>Educatie</h1>
-    <div class="row"> 
       <div class="doubleCol imageHolder">
-        <img src="../assets/landstede.png" alt="">
-        <div class="textHolder">
-          <span>te</span>
-          <p>test</p>
+        <img src="../assets/ProfilePic.png" alt="hero image">
+      </div>
+      <div class="doubleCol textHolder">
+        <span class="title"><strong>Chris Friemann</strong> <br /> Student ICT-SE</span>
+        <p>
+          <span class="subTitleSmall">Hallo!</span><br>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum officia quibusdam consequatur? Ex accusamus sunt veritatis vel ipsum at alias, iste sequi nemo, beatae maxime voluptates excepturi nobis reiciendis.</span>
+        </p>
+      </div>
+    </section>
+  
+    <section class="toolsHolder container">
+      <h1>Tools en Talen</h1>
+      <img src="../assets/languages.png" alt="programmeer talen">
+    </section>
+  
+    <section class="educationHolder container">
+      <h1>Educatie</h1>
+      <div class="row"> 
+        <div class="doubleCol imageHolder">
+          <img src="../assets/landstede.png" alt="">
+          <div class="textHolder">
+            <span>te</span>
+            <p>test</p>
+          </div>
+        </div>
+        <div class="doubleCol imageHolder">
+          <img src="../assets/windesheim.png" alt="">
+          <div class="textHolder">
+            <span>2024 - heden</span>
+            <span>HBO-ICT</span>
+            <span><strong>Software Engineer</strong></span>
+          </div>
         </div>
       </div>
-      <div class="doubleCol imageHolder">
-        <img src="../assets/windesheim.png" alt="">
+    </section>
+  
+    <section class="hobbyHolder container">
+      <h1>Hobby's</h1>
+      <div class="row">
+        <div class="imageHolder">
+          <img src="../assets/hobbies.png" alt="hobby's">
+        </div>
         <div class="textHolder">
-          <span>2024 - heden</span>
-          <span>HBO-ICT</span>
-          <span><strong>Software Engineer</strong></span>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minus ex labore itaque perspiciatis aliquam at provident? Amet dolores quam voluptate veniam? Velit dicta est assumenda deserunt corrupti ducimus tempore? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum porttitor libero ut scelerisque. Proin nec ultrices lacus, et pharetra enim. Suspendisse potenti.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="hobbyHolder container">
-    <h1>Hobby's</h1>
-    <div class="row">
-      <div class="imageHolder">
-        <img src="../assets/hobbies.png" alt="hobby's">
-      </div>
-      <div class="textHolder">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minus ex labore itaque perspiciatis aliquam at provident? Amet dolores quam voluptate veniam? Velit dicta est assumenda deserunt corrupti ducimus tempore? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum porttitor libero ut scelerisque. Proin nec ultrices lacus, et pharetra enim. Suspendisse potenti.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="softSkillsHolder container">
-    <h1>Soft Skills</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minus ex labore itaque perspiciatis aliquam at provident? Amet dolores quam voluptate veniam? Velit dicta est assumenda deserunt corrupti ducimus tempore? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum porttitor libero ut scelerisque. Proin nec ultrices lacus, et pharetra enim. Suspendisse potenti.</p>
-  </section>
+    </section>
+  
+    <section class="softSkillsHolder container">
+      <h1>Soft Skills</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minus ex labore itaque perspiciatis aliquam at provident? Amet dolores quam voluptate veniam? Velit dicta est assumenda deserunt corrupti ducimus tempore? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum porttitor libero ut scelerisque. Proin nec ultrices lacus, et pharetra enim. Suspendisse potenti.</p>
+    </section>
+  </main>
 
   <footer class="footer container"> 
     <a class="footerLink" href="#">© 2026 - All rights reserved.</a>
