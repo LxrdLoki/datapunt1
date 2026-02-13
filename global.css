@@ -140,6 +140,10 @@ h1{
     display: none;
   }
 
+  .leftSide a{
+    font-size: 1.25rem;
+  }
+
   /* menu tonen wanneer checkbox is aangevinkt */
   #menu-toggle:checked ~ .leftSide{
     display: flex;

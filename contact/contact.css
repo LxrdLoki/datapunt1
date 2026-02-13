@@ -7,7 +7,9 @@
   margin: auto;
   align-items: start;
 }
-.textHolder{}
+.textHolder h2{
+  font-size: 2rem;
+}
 
 .infoHolder{
   display: flex;
