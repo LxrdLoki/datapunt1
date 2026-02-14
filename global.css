@@ -20,7 +20,7 @@ a{
 body{
   color: var(--primary-font-color);
   margin: 0;
-  font-family: sans-serif;
+  font-family: Verdana;
 }
 
 h1{
@@ -76,6 +76,7 @@ h1{
   justify-content: space-between;
   padding: 10px 20px;
   position: relative;
+  margin-bottom: 25px;
 }
 
 .leftSide{

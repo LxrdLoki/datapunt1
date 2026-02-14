@@ -1,3 +1,7 @@
+.heroImage{
+  margin-top: 0.67em
+}
+
 .toolsHolder{
   display: flex;
   flex-direction: column;
@@ -59,4 +63,15 @@
 .softSkillsHolder h1{
   text-align: center;
   padding-bottom: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  .heroImage img{
+    height: 300px;
+    border-radius: 150px;
+  }
+
+  .textHolder .title{
+    text-align: center;
+  }
 }
