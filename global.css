@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+a, p, span{
+  font-size: 1.75rem;
+}
+
 a{
   text-decoration: none;
   color: var(--secondary-color);
@@ -24,16 +28,16 @@ body{
 }
 
 h1{
-  color: var(--primary-font-color);
+  font-size: 3rem;
+  color: var(--secondary-font-color);
 }
 
 .title{
-  font-size: 1.5rem;
-  color: var(--primary-font-color);
+  color: var(--secondary-font-color);
 }
 
 .subTitleSmall{
-  color: var(--primary-font-color);
+  color: var(--secondary-font-color);
   font-weight: bold;
 }
 
@@ -139,10 +143,6 @@ h1{
     padding: 20px;
     border-bottom: 2px solid #eb4d36;
     display: none;
-  }
-
-  .leftSide a{
-    font-size: 1.25rem;
   }
 
   /* menu tonen wanneer checkbox is aangevinkt */

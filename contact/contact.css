@@ -41,8 +41,7 @@
 }
 
 .iconHolder .text span{
-  font-size: 1.25rem;
   font-weight: bold;
-  color: var(--primary-font-color);
+  color: var(--secondary-font-color);
   padding-bottom: 3px;
 }
